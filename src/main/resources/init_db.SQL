@@ -1,1 +1,9 @@
-CREATE TABLE pessoa
+CREATE DATABASE cadastro;
+
+CREATE TABLE pessoa(
+    id INT AUTO_INCREMENT, CONSTRAINT pessoa_id_uindex UNIQUE (id),
+    nome  VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL
+);
+
+ALTER TABLE pessoa ADD PRIMARY KEY (id);
