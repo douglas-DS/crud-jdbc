@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"br.com.douglas.app","l":"App"},{"p":"br.com.douglas.connection","l":"ConnectionFactory"},{"p":"br.com.douglas.model.bean","l":"Pessoa"},{"p":"br.com.douglas.model.dao","l":"PessoaDAO"},{"p":"br.com.douglas.view","l":"TelaCadastro"}]
