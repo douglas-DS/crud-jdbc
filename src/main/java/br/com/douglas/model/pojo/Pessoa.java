@@ -1,4 +1,48 @@
-package br.com.douglas.model.bean;
+package br.com.douglas.model.pojo;
 
 public class Pessoa {
+
+    private int id;
+
+    private String nome;
+
+    private String email;
+
+    public Pessoa() {
+    }
+
+    public Pessoa(int id, String nome, String email) {
+        this.id = id;
+        this.nome = nome;
+        this.email = email;
+    }
+
+    public Pessoa(String nome, String email) {
+        this.nome = nome;
+        this.email = email;
+    }
+
+    public int getId() {
+        return this.id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return this.nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getEmail() {
+        return this.email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }
