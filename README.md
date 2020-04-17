@@ -1,5 +1,8 @@
-# crud-jdbc
+# Swing CRUD
 
-It's a Java CRUD project with they basic operations.
+## Project description
 
-Has connection implementation with a Mysql database using the API jdbc and Swing for the forms.
+Simple java project example with basic "CRUD" operations. 
+Interface built on top of Swing library, just for study purpose.
+
+Basic integration with a mysql database using the JDBC driver.
